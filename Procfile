@@ -1,1 +1,1 @@
-worker: python3 DJ _Desolous.py
+worker: python3 DJ_Desolous.py
