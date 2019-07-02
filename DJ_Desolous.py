@@ -34,21 +34,5 @@ async def sgoç(ctx, member: discord.Member, *, reason=None):
     await member.ban(reason=reason)
     await ctx.send(member.mention + " Yolun açık olsun paşam :)")
 
-@bot.event
-async def on_member_join(member):
-    channel = discord.utils.get(member.guild.channels, name="boşlar")
-    await channel.send(member.mention + " Damsız Almıyoruz !!")
-
-@bot.event
-async def on_member_remove(member):
-    channel = discord.utils.get(member.guild.channels, name="boşlar")
-    await channel.send(member.mention + " 7/24 yine bekleriz.")
-
-    
-
-
-
-
-
 bot.run("NTkxNzkzODQ2ODA4MDg0NTMx.XRfCpg.X8vN1xfRT-O3IlFWTKW7jHGhLrQ") 
 
