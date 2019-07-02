@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix=bot_prefix)
 async def on_ready():
     print ("Çalıştırılıyor")
     activity = discord.Game(name="Duygularımla")
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
+    await bot.change_presence(status=discord.Status.online, activity=activity)
     print ("Aktif")
 
 @bot.command(pass_context=True)
