@@ -34,5 +34,5 @@ async def sgoç(ctx, member: discord.Member, *, reason=None):
     await member.ban(reason=reason)
     await ctx.send(member.mention + " Yolun açık olsun paşam :)")
 
-bot.run("NTk1NTkxNzY4NjAzNDkyMzYy.XRzORw.nCtFD0xGuWkZNvVg5mZ5dioYCgk") 
+bot.run("NTk2MDAyNzA3MDYwMjkzNjQz.XRzPag.zzxHWVGEouOKEF93tnv2nZbVI1o") 
 
