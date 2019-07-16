@@ -28,5 +28,5 @@ async def on_member_remove(member):
     channel = discord.utils.get(member.guild.channels, name="boşlar")
     await channel.send(member.mention + " Hop Hemşerim Nereye ?")
 
-bot.run("NTk2MDAyNzA3MDYwMjkzNjQz.XR4Yyg.c3M8Q-Uvc6X0TGKI_IZaM0k5wFE") 
+bot.run("NTk2MDAyNzA3MDYwMjkzNjQz.XS4Q8g.inLKwHAPFwxa3Z-lRE4q2Dn9owg") 
 
